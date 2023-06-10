@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='morsecode_enhanced',
-    version='1.0.1',
+    version='1.0.3',
     author='Dany Srour',
     author_email='dany.srour@gmail.com',
     description='A package for encoding and decoding Morse code.',
@@ -19,6 +19,9 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
+    ],
+    install_requires=[
+            'playsound>=1.3.0',
     ],
     python_requires='>=3.6',
     exclude_package_data={'': ['tests/*']},
