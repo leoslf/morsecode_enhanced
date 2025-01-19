@@ -23,8 +23,12 @@ setup(
         'Programming Language :: Python :: 3.11',
         'Programming Language :: Python :: 3.12',
     ],
+    build_requires=[
+        'setuptools',
+        'wheel',
+    ],
     install_requires=[
-            'playsound>=1.2.2',
+        'playsound>=1.2.2',
     ],
     python_requires='>=3.6',
     exclude_package_data={'': ['tests/*']},
