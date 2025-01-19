@@ -21,7 +21,7 @@ setup(
         'Programming Language :: Python :: 3.9',
     ],
     install_requires=[
-            'playsound>=1.3.0',
+            'playsound>=1.2.2',
     ],
     python_requires='>=3.6',
     exclude_package_data={'': ['tests/*']},
